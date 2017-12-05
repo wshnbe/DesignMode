@@ -1,0 +1,2 @@
+原型模式的核心是:实现Cloneable接口,标明此类可能被clone()
+如果不实现接口调用clone()方法,则抛出exception:CloneNotSupportedException
